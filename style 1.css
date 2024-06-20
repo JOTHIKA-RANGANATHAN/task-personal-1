@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: xl-small;
+    font-weight:lighter;
+    background-color:black;
+    
+    
+  }
+  h1{
+    color: beige;
+    text-align: center;
+  
+  }
+  
+  .container p{
+    width: 200px;
+    color: azure;
+    
+    
+  }
+  
+  .container h1{
+    text-align: justify;
+  }
+  
+  .container div {
+    margin: 5mm;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 25%;
+    flex-grow: 2;
+    
+  }
+  .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  
+  }
+  
